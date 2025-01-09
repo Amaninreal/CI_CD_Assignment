@@ -57,6 +57,7 @@ const commands = [
      * @param{String} password
      *
      */
+    
     enterNameAndPassword(name, password) {
       return this.setValue("@userNameInput", name).setValue(
         "@passwordInput",

@@ -23,3 +23,4 @@ exports.command = function customClick(type, selector) {
   );
   return this;
 };
+

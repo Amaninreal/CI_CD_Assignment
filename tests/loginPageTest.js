@@ -18,7 +18,6 @@ describe("Login Page Verification", () => {
       .assert.titleContains("Sign in to nashtech");
     logger.info("Test Executed");
   });
-
   it('Verify "Go1Percent" logo, carousel images, carousel caption and the footer message (TC-337) - Version1', function () {
     loginPage
       .waitForElementVisible("@goLogo")

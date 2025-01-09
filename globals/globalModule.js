@@ -37,7 +37,7 @@ module.exports = {
       (err) => {
         if (err) throw err;
 
-        logger.info("report saved");
+        logger.info("report saved!");
       },
     );
   },
