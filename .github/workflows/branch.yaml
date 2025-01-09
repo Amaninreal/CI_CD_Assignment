@@ -29,7 +29,9 @@ jobs:
           echo "PASSWORD=${{ secrets.PASSWORD }}" >> $GITHUB_ENV
           echo "Base_url=${{ secrets.Base_url }}" >> $GITHUB_ENV
           #######################################################
-          env
+          env | grep PASSWORD
+          env | grep USER_NAME
+          env | grep Base
 
       - name: npm-install
         run: |
