@@ -23,6 +23,12 @@ jobs:
         with:
           node-version: 21
 
+      - name: Set up environment variables
+        run: |
+          echo "USER_NAME=${{ secrets.USER_NAME }}" >> $GITHUB_ENV
+          echo "PASSWORD=${{ secrets.PASSWORD }}" >> $GITHUB_ENV
+          echo "Base_url=${{ secrets.Base_url }}" >> $GITHUB_ENV
+
       - name: npm-install
         run: |
           npm ci
