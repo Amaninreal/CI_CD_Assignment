@@ -2,9 +2,9 @@ name: Automated Testing
 
 on: 
   push:
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:  
   schedule:
-    - cron: '0 10 * * 1'  # Run at 10:00 AM every Monday
+    - cron: '0 10 * * 1'  
 
 jobs:
    Nightwatch_test:
@@ -36,4 +36,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: test-reports
-          path: tests_output  # Adjust this to match the directory where Nightwatch generates test reports
+          path: tests_output 
