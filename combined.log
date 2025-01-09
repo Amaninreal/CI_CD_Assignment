@@ -151,6 +151,7 @@ info: before {"timestamp":"2024-03-15T17:56:10.473Z"}
 info: before Each {"timestamp":"2024-03-15T17:56:11.246Z"}
 info: unknown command: unknown command: session/undefined/status {"error":"unknown command","stacktrace":"","timestamp":"2024-03-15T17:56:11.253Z"}
 info: Test Executed {"timestamp":"2024-03-15T17:56:14.090Z"}
+info: Test Executed {"timestamp":"2024-03-15T17:56:14.091Z"}
 info: Title: {"timestamp":"2024-03-15T17:56:18.865Z"}
 info: afterEach {"timestamp":"2024-03-15T17:56:20.412Z"}
 info: [object Object] {"timestamp":"2024-03-15T17:56:20.412Z"}
