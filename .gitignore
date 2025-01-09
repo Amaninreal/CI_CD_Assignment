@@ -6,3 +6,9 @@ node_modules/
 
 # Ignore reports 
 allure-results
+
+logs
+
+reports/allure-report
+
+tests_output

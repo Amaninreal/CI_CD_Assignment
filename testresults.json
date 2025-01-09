@@ -112,6 +112,7 @@
               "name": "NightwatchAssertError",
               "message": "Element <#myCarousel > div > div>img> was visible after 20 milliseconds.",
               "stackTrace": "",
+              
               "fullMsg": "Element <#myCarousel > div > div>img> was visible after 20 milliseconds.",
               "failure": false
             },

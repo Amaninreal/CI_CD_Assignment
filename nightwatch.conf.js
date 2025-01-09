@@ -26,7 +26,7 @@ module.exports = {
   // See https://nightwatchjs.org/guide/extending-nightwatch/adding-custom-assertions.html
   custom_assertions_path: "",
 
-  // See https://nightwatchjs.org/guide/extending-nightwatch/adding-plugins.html
+  // See https://nightwatchjs.org/guide/extending-nightwatch/adding-plugins.html 
   plugins: [],
 
   // See https://nightwatchjs.org/guide/concepts/test-globals.html#external-test-globals
