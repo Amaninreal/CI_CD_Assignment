@@ -1,12 +1,8 @@
-# NightWatch_Assignment01
+# CI_CD_Assignment02
 
 ## Overview
 
 Here , In this Assignment I have used the POM (Page Object Model) & created the different Pages for the different Functionalities of Go1%,, It will lead our code more efficient, reusable, scalable & maintable.
-
-## Website (refer to test)
-
-https://nashtechglobal.qa.go1percent.com/
 
 ## Test Overview
 
